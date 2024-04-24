@@ -6,7 +6,7 @@ var chair3 = function() {
 
 // function to end game 
 var chair1 = function() {
-    alert('Oops...Goldilocks chose Big chair..... too high');
+    alert('Oops...Goldilocks chose the Big chair..... too high');
     location.replace("game_over2.html");
 }
 
