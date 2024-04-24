@@ -6,7 +6,7 @@ var chair3 = function() {
 
 // function to end game 
 var chair1 = function() {
-    alert('Oh Oh......Muna chose Chair 1..... too high');
+    alert('Oh Oh......Goldilocks chose Chair 1..... too high');
     location.replace("game_over2.html");
 }
 
