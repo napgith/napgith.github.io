@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Choose Your Own Adventure</title>
+    <link rel="stylesheet" href="start_game.css">
+</head>
+
+<body>
+    <!-- main content -->
+    <section>
+        <!-- class to wrap game content -->
+        <div id="wrapper">
+            <p>Goldilocks wandered into the forest and came across a house ,Should she enter the <b>house</b> or head back <b>home</b>? <br><br>
+                <!-- a tag with button class to choose anwsers -->
+                <a onclick="meal_stage()" id="houseBtn" class="button">HOUSE</a>
+                <a onclick="home()" id="homeBtn" class="button">HOME</a>
+            </p>
+        </div>
+        <audio src="Visager - Pyramid Level [Loop].mp3" id="game_audio" loop="loop" autoplay="autoplay"></audio>
+    </section>
+    <!-- main content end -->
+
+    <!-- Javascript script -->
+    <script src="start_game.js"></script>
+
+</body>
+
+</html>

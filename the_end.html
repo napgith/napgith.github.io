@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>- Goldilocks and the three Bears</title>
+    <link rel="stylesheet" href="the_end.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- main content section  -->
+    <section>
+
+        <h3>The End</h3>
+        
+        <!-- link to restart game  -->
+        <p><a href="start_game.html">Play again?</a></p>
+
+        <!-- play sound  -->
+        <audio src="Visager - Airship [Loop].mp3" id="game_audio" loop="loop" autoplay="autoplay"></audio>
+    </section>
+
+
+
+
+    <style>
+
+    </style>
+
+    <script>
+        // play sound 
+        var sound = new Audio("Visager - Airship [Loop].mp3");
+        var sound_on = function() {
+            sound.play();
+        }
+
+        // pause sound 
+        var sound_stop = function() {
+            sound.pause();
+        }
+    </script>
+
+    <footer>
+    <p>
+        John Chimezie &copy; 2024 CYOA. All Rights Reserved. <br>
+        <a href="contact.html">Click here for more information</a>
+    </p>
+
+    </footer>
+</body>
+
+</html>

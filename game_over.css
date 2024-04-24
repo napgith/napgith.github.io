@@ -1,0 +1,111 @@
+html {
+    --webkit-background-size: contain;
+    --moz-background-size: contain;
+    --o-background-size: contain;
+}
+
+body {
+    font-size: 20px;
+    background-color: black;
+    color: grey;
+    font-family: Tahoma;
+    min-height: auto;
+    max-width: auto;
+    background-color: #e38f08;
+    margin: 0 auto;
+}
+
+h3 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Papyrus';
+    /*font-family: Papyrus;*/
+    font-size: 40px;
+}
+
+.button {
+    width: 75px;
+    background: #d2d2d2;
+    text-align: center;
+    color: #000;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.button:hover {
+    width: 75px;
+    background: #0e567f;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+
+/*
+a {
+    color: white;
+}
+*/
+
+/*
+a:hover {
+    text-decoration: underline;
+}
+*/
+
+/*
+#playAgainBtn {
+    float: left;
+}
+
+#QuitBtn {
+    float: right;
+}
+*/
+
+section {
+    position: relative;
+    width: 100%;
+    background: url("gameoverbears.jpg") no-repeat center center;
+    background-size: contain;
+    height: 480px;
+    align-items: center;
+    text-align: center;
+   
+}
+
+section h3 {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 100px;
+    text-shadow: #000 0 0 .2em;
+}
+
+section a {
+    position: relative;
+    top: 210px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    font-family: "Merriweather", serif;
+    text-align: right;
+    font-weight: bolder;
+    color: #2f00ff;
+    
+}
+
+
+footer a{
+    font-family: "Merriweather", serif;
+    text-align: right;
+    font-weight: bolder;
+    color: #111111;
+}
+
+
+

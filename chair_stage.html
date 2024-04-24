@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Choose Your Own Adventure</title>
+    <link rel="stylesheet" href="chair_stage.css">
+</head>
+
+<body>
+
+    <!-- main content -->
+    <section>
+        <!-- class to wrap game content -->
+        <div id="wrapper">
+            <p id='game_status'>Goldilocks finds three <b>chairs</b> next to the table. What <b>Chair</b> should she sit on to eat the bowl of meal ? <br><br>
+                <!-- a tag with button class to choose anwsers -->
+                <a onclick="chair1()" id="chair1Btn" class="button">Big</a>
+                <a onclick="chair2()" id="chair2Btn" class="button">Medium</a>
+                <a onclick="chair3()" id="chair3Btn" class="button">Small</a>
+            </p>
+        </div>
+        <audio src="Visager - Pyramid Level [Loop].mp3" id="game_audio" loop="loop" autoplay="autoplay"></audio>
+    </section>
+    <!-- main content end -->
+
+    <style>
+
+    </style>
+    <!-- Javascript file -->
+    <script src="chair_stage.js">
+    </script>
+</body>
+
+</html>
